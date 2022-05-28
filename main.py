@@ -3,9 +3,9 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
     def __init__(self, name, age, tracks, score):
-        self.name = name
+        self.name = str(name)
         self.age = int(age)
-        self.tracks = tracks
+        self.tracks = list(tracks)
         self.score = float(score)
 
     # Create methods for student class
